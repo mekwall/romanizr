@@ -18,6 +18,9 @@
       "import": "./es/index.mjs"
     }
   },
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "rebuild": "yarn build --clean",
     "build": "tsukuru -c tsconfig.build.json",
