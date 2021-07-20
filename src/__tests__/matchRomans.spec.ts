@@ -1,7 +1,7 @@
 import { matchRomans } from "../matchRomans";
 import allPoss from "./allPossibilities.json";
 
-describe("matchRoman", () => {
+describe("matchRomans", () => {
   it("should match I Spit on Your Grave III: Vengeance is Mine", () => {
     const matches = matchRomans("I Spit on Your Grave III: Vengeance is Mine");
     expect(matches?.length).toBe(2);
