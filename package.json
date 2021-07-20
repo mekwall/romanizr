@@ -29,7 +29,8 @@
     "rebuild": "yarn build --clean",
     "build": "tsukuru -c tsconfig.build.json",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "semantic-release": "dotenv semantic-release"
+    "semantic-release": "semantic-release",
+    "semantic-release:local": "dotenv semantic-release"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.7",
