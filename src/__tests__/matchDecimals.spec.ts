@@ -26,4 +26,11 @@ describe("matchDecimals", () => {
     expect(matches?.length).toBe(1);
     expect(matches?.[0][0]).toBe("1776");
   });
+
+  it("should not match numbers larger than 3999", () => {
+    const matches1 = matchDecimals("3999 is less than 4000");
+    expect(matches1?.length).toBe(1);
+    const matches2 = matchDecimals("It's over 9000");
+    expect(matches2?.length).toBe(0);
+  });
 });

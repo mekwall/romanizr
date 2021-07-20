@@ -22,4 +22,4 @@ export const ROMANS = [
 export const ROMANS_RXP =
   /(?<![MDCLXVI])(?=[MDCLXVI])M{0,3}(?:C[MD]|D?C{0,3})(?:X[CL]|L?X{0,3})(?:I[XV]|V?I{0,3})[^ ]\b/g;
 
-export const DECIMALS_RXP = /(\d+)\b/g;
+export const DECIMALS_RXP = /\b([1-3]?[0-9]?[0-9]?[0-9])\b/g;
