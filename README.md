@@ -8,7 +8,7 @@ This is a hybrid package that provides both CommonJS and ES modules with zero de
 
 The regular expression used to match Roman numerals is a modified version of [Reilly's Modern roman numerals strict expression][1]. I wrote an [answer on StackOverflow][3] related to this.
 
-NOTE: This library only support the [Roman numeral standard form][2]. That means that the largest number that can be represented is 3,999 (MMMCMXCIX). There are variant forms out there that allow for higher numbers but I don't think there's a need to implement any of them.
+> NOTE: This library only support the [Roman numeral standard form][2]. That means that the largest number that can be represented is 3,999 (MMMCMXCIX). There are variant forms out there that allow for higher numbers but I don't think there's a need to implement any of them.
 
 ## Installation
 
