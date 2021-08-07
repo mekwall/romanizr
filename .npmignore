@@ -5,5 +5,4 @@ coverage
 .github
 babel.config.js
 tsconfig.*
-# since this only contains dev deps we don't need to include it
 yarn.lock
