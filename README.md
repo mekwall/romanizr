@@ -12,9 +12,16 @@ The regular expression used to match Roman numerals is a modified version of [Re
 
 ## Installation
 
-```sh
-$ npm install --save romanize
-$ yarn add romanize
+### npm
+
+```shell
+npm install --save romanizr
+```
+
+### Yarn
+
+```shell
+yarn add romanizr
 ```
 
 ## Usage
