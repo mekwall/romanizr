@@ -1,8 +1,9 @@
+.github
+.gitignore
+.yarn
+babel.config.js
+coverage
 node_modules
 src
-coverage
-.gitignore
-.github
-babel.config.js
 tsconfig.*
 yarn.lock
