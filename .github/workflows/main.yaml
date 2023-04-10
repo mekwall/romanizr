@@ -39,7 +39,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 18
           cache: "yarn"
       - name: Download artifacts
         uses: actions/download-artifact@v2
@@ -60,7 +60,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 18
           cache: "yarn"
       - name: Download artifacts
         uses: actions/download-artifact@v2
