@@ -39,7 +39,7 @@
     "cross-env": "^7.0.3",
     "dotenv-cli": "^7.1.0",
     "jest": "^29.3.1",
-    "semantic-release": "^22.0.5",
+    "semantic-release": "^23.0.0",
     "tsukuru": "^0.8.0",
     "typescript": "^5.0.4"
   },
