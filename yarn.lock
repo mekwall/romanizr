@@ -4939,6 +4939,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-spawn@npm:^7.0.6":
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
+  dependencies:
+    path-key: "npm:^3.1.0"
+    shebang-command: "npm:^2.0.0"
+    which: "npm:^2.0.1"
+  checksum: 10/0d52657d7ae36eb130999dffff1168ec348687b48dd38e2ff59992ed916c88d328cf1d07ff4a4a10bc78de5e1c23f04b306d569e42f7a2293915c081e4dfee86
+  languageName: node
+  linkType: hard
+
 "crypto-random-string@npm:^4.0.0":
   version: 4.0.0
   resolution: "crypto-random-string@npm:4.0.0"
@@ -5079,16 +5090,16 @@ __metadata:
   linkType: hard
 
 "dotenv-cli@npm:^7.1.0":
-  version: 7.3.0
-  resolution: "dotenv-cli@npm:7.3.0"
+  version: 7.4.4
+  resolution: "dotenv-cli@npm:7.4.4"
   dependencies:
-    cross-spawn: "npm:^7.0.3"
+    cross-spawn: "npm:^7.0.6"
     dotenv: "npm:^16.3.0"
     dotenv-expand: "npm:^10.0.0"
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: 10/bc48e9872ed451aa7633cfde0079f5e4b40837d49dca4eab947682c80f524bd1e63ec31ff69b7cf955ff969185a05a343dd5d754dd5569e4ae31f8e9a790ab1b
+  checksum: 10/04d4459a21c32526a79609ce98f566e7978f359f4d98f5d6e35f43bfdc0f35c75330e25d7a5f84391c0557164c48f46adb031dcc8b9bf5121b45ed15562a09f1
   languageName: node
   linkType: hard
 
