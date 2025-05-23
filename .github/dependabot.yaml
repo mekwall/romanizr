@@ -10,3 +10,29 @@ updates:
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "daily"
+    # Add labels to pull requests
+    labels:
+      - "dependencies"
+      - "npm"
+    # Specify who should review the PR
+    reviewers:
+      - "mekwall"
+    # Limit number of open PRs at any time
+    open-pull-requests-limit: 10
+    # Define how versions should be updated
+    versioning-strategy: auto
+    # Add commit message prefix
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci"
