@@ -13,17 +13,13 @@ updates:
     # Add labels to pull requests
     labels:
       - "dependencies"
-      - "npm"
-    # Specify who should review the PR
-    reviewers:
-      - "mekwall"
     # Limit number of open PRs at any time
     open-pull-requests-limit: 10
     # Define how versions should be updated
     versioning-strategy: auto
     # Add commit message prefix
     commit-message:
-      prefix: "npm"
+      prefix: "chore"
       include: "scope"
 
   # Enable version updates for GitHub Actions
@@ -33,6 +29,6 @@ updates:
       interval: "weekly"
     labels:
       - "dependencies"
-      - "github-actions"
+      - "ci"
     commit-message:
       prefix: "ci"
