@@ -6021,7 +6021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-terminal@npm:^7.0.0":
+"marked-terminal@npm:^7.3.0":
   version: 7.3.0
   resolution: "marked-terminal@npm:7.3.0"
   dependencies:
@@ -6038,12 +6038,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^12.0.0":
-  version: 12.0.2
-  resolution: "marked@npm:12.0.2"
+"marked@npm:^15.0.0":
+  version: 15.0.12
+  resolution: "marked@npm:15.0.12"
   bin:
     marked: bin/marked.js
-  checksum: 10/24d4fc58d37c1779197fa7f93c504d8c71d4df54eb69cbbc14a55ba2a8e2ad83d723801fc25452c21ce74b38a483c5863c53449f130253a597be9e9c1d3e7e2b
+  checksum: 10/deeb619405c0c46af00c99b18b3365450abeb309104b24e3658f46142344f6b7c4117608c3b5834084d8738e92f81240c19f596e6ee369260f96e52b3457eaee
   languageName: node
   linkType: hard
 
@@ -7495,8 +7495,8 @@ __metadata:
   linkType: hard
 
 "semantic-release@npm:^24.2.0":
-  version: 24.2.3
-  resolution: "semantic-release@npm:24.2.3"
+  version: 24.2.5
+  resolution: "semantic-release@npm:24.2.5"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^13.0.0-beta.1"
     "@semantic-release/error": "npm:^4.0.0"
@@ -7516,8 +7516,8 @@ __metadata:
     hosted-git-info: "npm:^8.0.0"
     import-from-esm: "npm:^2.0.0"
     lodash-es: "npm:^4.17.21"
-    marked: "npm:^12.0.0"
-    marked-terminal: "npm:^7.0.0"
+    marked: "npm:^15.0.0"
+    marked-terminal: "npm:^7.3.0"
     micromatch: "npm:^4.0.2"
     p-each-series: "npm:^3.0.0"
     p-reduce: "npm:^3.0.0"
@@ -7529,7 +7529,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 10/a9d64855e82f636fb3e9199e58b631f3af6de9cd43c7fa4ed637065958009136b8f838856abe5d7212880f80e42fd2a646a799035d9c9ed04c8dc342f63ee11e
+  checksum: 10/4f1d75ddd823d5f7e0da650628298c47bcac09daf4e6e8898a41c4e9c9dfc4d05a4d4f93d945a8d8e3f0a00c8d372d5a71329a74ee4163ffacf72ecb9fa0c6ee
   languageName: node
   linkType: hard
 
