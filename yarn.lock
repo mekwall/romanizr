@@ -2060,9 +2060,9 @@ __metadata:
   linkType: hard
 
 "@npmcli/redact@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "@npmcli/redact@npm:3.1.1"
-  checksum: 10/8a2f6cb6e0a42474731bfd0888dbff290efece779636b4d93a520339d3a8d6f3c5460ce03d871fcbc1c77e9864b4558340c5792784f1aac0cc493124dbac790c
+  version: 3.2.2
+  resolution: "@npmcli/redact@npm:3.2.2"
+  checksum: 10/06769db8807c342e45985379a2786f41c367953a200dfba31029d14d147fae36fe8b428b930678555dcbdb30488f471e972e927f42e3ddd5ca31f5726c1214e3
   languageName: node
   linkType: hard
 
