@@ -2399,13 +2399,13 @@ __metadata:
   linkType: hard
 
 "@octokit/graphql@npm:^8.1.2":
-  version: 8.2.1
-  resolution: "@octokit/graphql@npm:8.2.1"
+  version: 8.2.2
+  resolution: "@octokit/graphql@npm:8.2.2"
   dependencies:
-    "@octokit/request": "npm:^9.2.2"
-    "@octokit/types": "npm:^13.8.0"
+    "@octokit/request": "npm:^9.2.3"
+    "@octokit/types": "npm:^14.0.0"
     universal-user-agent: "npm:^7.0.0"
-  checksum: 10/d247ef0c73ef8ffdb222e9724514ee4f64ff7195bd71da795db99e39d1e28d3b4c45b9c4a9fc151e263e01ecb259019f74f67a92d022b57fe5b876b720a4bb91
+  checksum: 10/e97653b71ed74c384c77edf06f80d01d863ff8c62dd7851d7395ec8558645c5c5737c828a8c250807b3a953edb2aa4f792312c7243652819499081befba4afbb
   languageName: node
   linkType: hard
 
@@ -2477,7 +2477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request@npm:^9.2.1, @octokit/request@npm:^9.2.2":
+"@octokit/request@npm:^9.2.1, @octokit/request@npm:^9.2.3":
   version: 9.2.3
   resolution: "@octokit/request@npm:9.2.3"
   dependencies:
@@ -2490,7 +2490,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^13.6.2, @octokit/types@npm:^13.7.0, @octokit/types@npm:^13.8.0":
+"@octokit/types@npm:^13.6.2, @octokit/types@npm:^13.7.0":
   version: 13.8.0
   resolution: "@octokit/types@npm:13.8.0"
   dependencies:
