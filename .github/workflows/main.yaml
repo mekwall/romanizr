@@ -45,7 +45,7 @@ jobs:
           node-version: 22
           cache: "yarn"
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: build
       - run: yarn install
@@ -66,7 +66,7 @@ jobs:
           node-version: 22
           cache: "yarn"
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: build
       - run: yarn install
